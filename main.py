@@ -32,7 +32,7 @@ def print_matrix():
 	print(authors[-1]["fullname"])
 	for auth in authors:
 		print "{}\t".format(auth["fullname"]),
-		print("{}\t".format(matrix[auth["id"]]))
+		print "{}\t".format(matrix[auth["id"]])
 
 
 
